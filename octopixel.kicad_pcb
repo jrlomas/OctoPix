@@ -116,7 +116,7 @@
 			)
 		)
 		(property "Value" "RBG PB3"
-			(at 2.5 4.6 270)
+			(at 2.5 4.6 -90)
 			(layer "F.Fab")
 			(uuid "ddf2235e-b011-4ff7-a764-0d231ab21b8f")
 			(effects
@@ -508,7 +508,7 @@
 			(uuid "457a6c54-4c76-4265-b1fe-0a71b044f36b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 2.7 270)
+			(at 2.5 2.7 -90)
 			(layer "F.Fab")
 			(uuid "cfe4c4d2-37f5-4a64-ad8b-93aa5addad8e")
 			(effects
@@ -1210,6 +1210,7 @@
 			(uuid "19535302-ee90-46ab-b9c6-ae137a767649")
 		)
 		(model "${KIPRJMOD}/easyeda.3dshapes/DIP-16_L20.3-W10.2-P2.54-LS10.2-BL.wrl"
+			(hide yes)
 			(offset
 				(xyz 0 -0 0)
 			)
@@ -1221,7 +1222,6 @@
 			)
 		)
 		(model "C:/Users/JR Lomas/Downloads/ic-dip-with-socket-1.snapshot.1/DIP-16 W7.62mm IC with Socket.stp"
-			(hide yes)
 			(offset
 				(xyz -9 -4 0)
 			)
@@ -1826,7 +1826,7 @@
 		(descr "JST XH series connector, B3B-XH-AM, with boss (http://www.jst-mfg.com/product/pdf/eng/eXH.pdf), generated with kicad-footprint-generator")
 		(tags "connector JST XH vertical boss")
 		(property "Reference" "J4"
-			(at 2.505 2.76 270)
+			(at 2.505 2.76 -90)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "4eb2d4a8-60e3-4835-94d3-0611bf50816e")
@@ -1838,7 +1838,7 @@
 			)
 		)
 		(property "Value" "RBG PB5"
-			(at 2.5 4.6 270)
+			(at 2.5 4.6 -90)
 			(layer "F.Fab")
 			(uuid "0edf9b1d-ecb5-473c-96da-bb29fa360e79")
 			(effects
@@ -2230,7 +2230,7 @@
 			(uuid "009601d2-bb3d-4e92-8625-d85150be1bcd")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 2.5 2.7 270)
+			(at 2.5 2.7 -90)
 			(layer "F.Fab")
 			(uuid "eccbe568-2eaf-4e17-b88a-5bcc0caebd42")
 			(effects
@@ -2787,7 +2787,7 @@
 			)
 		)
 		(property "Value" "Octopus SPI3"
-			(at -5.65 -12.93 360)
+			(at -5.65 -12.93 0)
 			(layer "B.Fab")
 			(uuid "530b461b-1cdd-4dc0-8fc8-d54ca81b429d")
 			(effects
