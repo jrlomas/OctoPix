@@ -1,0 +1,229 @@
+(footprint "CONN-TH_PH-3PWB"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -7.18 0)
+		(layer "F.SilkS")
+		(uuid "c95c53d2-4bf3-42b4-b14e-523186aecf77")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "CONN-TH_PH-3PWB"
+		(at 0 7.18 0)
+		(layer "F.Fab")
+		(uuid "29fe54d8-4b50-4b85-a3ac-429249f55d17")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "CONN-TH_PH-3PWB"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7386c1aa-7710-4b63-b55e-c891bafc9480")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b00f9c10-9c90-44fb-804e-39d536c98109")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0c52ba66-bd41-44a7-9462-a41e2f47c211")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -5 -4.57)
+		(end -4.94 -4.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d29a9cc8-6fee-47f4-9cbe-4e74e265476e")
+	)
+	(fp_line
+		(start -5 1.53)
+		(end -5 -4.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "2866f1a8-26cb-4fdd-b4fa-14178ab49e3c")
+	)
+	(fp_line
+		(start -3.43 -4.56)
+		(end 3.56 -4.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1766bf87-e104-4832-83ce-e6db7361858f")
+	)
+	(fp_line
+		(start -2.65 1.53)
+		(end -5 1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "33cb9587-7eaf-44a0-9a58-a434d6227bae")
+	)
+	(fp_line
+		(start -0.65 1.53)
+		(end -1.36 1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "03a9a878-7564-47af-a92f-60896b7e56a2")
+	)
+	(fp_line
+		(start 1.35 1.53)
+		(end 0.64 1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ee404a00-52a0-4ba3-9210-925cc15e50c7")
+	)
+	(fp_line
+		(start 4.93 -4.57)
+		(end 5 -4.57)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e755314a-9501-440e-b735-0105d22d8c7e")
+	)
+	(fp_line
+		(start 5 -4.57)
+		(end 5 1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dfeb11f6-0269-4efb-837f-d5c2b1929b6d")
+	)
+	(fp_line
+		(start 5 1.53)
+		(end 2.64 1.53)
+		(stroke
+			(width 0.25)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "63cf072b-3807-4f4f-b066-652919176618")
+	)
+	(fp_circle
+		(center -2.8 3.75)
+		(end -2.65 3.75)
+		(stroke
+			(width 0.3)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "4548e783-5f6c-47a6-a126-f3ef6ef2a46f")
+	)
+	(fp_circle
+		(center -4.95 3.8)
+		(end -4.92 3.8)
+		(stroke
+			(width 0.06)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.Fab")
+		(uuid "7461be9e-bff4-4e37-a95e-f33a9622e75a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(uuid "63ee874a-9677-4951-8e22-3f01819a4850")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "0" smd rect
+		(at -4.25 -3.18)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d95f2ef4-8e2a-4998-a1cc-11b44d1cae28")
+	)
+	(pad "0" smd rect
+		(at 4.25 -3.18)
+		(size 1.3 3)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "7944ba1b-efb7-4bb5-8d64-ab37f9abdb2f")
+	)
+	(pad "1" smd rect
+		(at -2 3.18)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "0b93f97c-1e3e-4430-b5ba-9ac60cd33649")
+	)
+	(pad "2" smd rect
+		(at 0 3.18)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "fd760a46-8186-40c7-b3ac-3e00009e0e32")
+	)
+	(pad "3" smd rect
+		(at 2 3.18)
+		(size 0.9 1.7)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "4623948b-cca9-4f7d-94f1-5011af145597")
+	)
+	(model "/mnt/c/Users/JR Lomas/Documents/octopixel/KiCad/easyeda.3dshapes/CONN-TH_PH-3PWB.wrl"
+		(offset
+			(xyz 0 0.29 -0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 180)
+		)
+	)
+)
