@@ -1,7 +1,7 @@
 # OctoPix Expansion PCB for BTT Octopus Board
 
-![Octo-Neo Front View](images/octopix_front.png)
-![Octo-Neo Rear View](images/octopix_rear.png)
+![OctoPix Front View](images/octopix_front.png)
+![OctoPix Rear View](images/octopix_rear.png)
 
 This PCB expansion board adds additional Neopixel outputs to your BTT Octopus board, allowing for custom RGB lighting configurations. It plugs into the Octopus's SPI3 header (J47) and provides four JST-XH 3-pin connectors to support up to four separate Neopixel connections.
 
@@ -23,12 +23,12 @@ This PCB expansion board adds additional Neopixel outputs to your BTT Octopus bo
 
 ## Installation
 
-1. Align the Octo-Neo PCB with the **J47 SPI3 header** on the Octopus board.
-2. Gently press the Octo-Neo PCB into the J47 header until fully seated.
-3. Connect your Neopixel strips to the 3-pin JST-XH connectors on the Octo-Neo PCB.
+1. Align the OctoPix PCB with the **J47 SPI3 header** on the Octopus board.
+2. Gently press the OctoPix PCB into the J47 header until fully seated.
+3. Connect your Neopixel strips to the 3-pin JST-XH connectors on the OctoPix PCB.
 4. Power on your Octopus board and configure your Neopixel effects using your preferred firmware (e.g., Klipper, Marlin).
 
-**Octo-Neo PCB Installed on BTT Octopus Board** (front and rear views):
+**OctoPix PCB Installed on BTT Octopus Board** (front and rear views):
 ![Installed Front View](images/octopus_front.png)
 ![Installed Rear View](images/octopus_rear.png)
 
