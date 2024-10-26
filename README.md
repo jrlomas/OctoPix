@@ -15,11 +15,11 @@ This PCB expansion board adds additional Neopixel outputs to your BTT Octopus bo
 
 ## Bill of Materials (BOM)
 
-| Quantity | Part Description                                      | Example Link                                                                                                          |
+| Quantity | Part Description                                      | Example Sourcing Links                                                                                                          |
 |----------|-------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|
-| 4        | JST-XH 3-pin connectors                               |                                                                                                                       |
+| 4        | JST-XH 3-pin connectors                               |   [DigiKey](https://www.digikey.com/en/products/detail/jst-sales-america-inc/B3B-XH-A/1651046)                                                                                                                    |
 | 1        | 2x5 header, 2.54mm pitch (Sullins SFH11-PBPC-D05-RA-BK) | [DigiKey SFH11-PBPC-D05-RA-BK](https://www.digikey.com/en/products/detail/sullins-connector-solutions/SFH11-PBPC-D05-RA-BK/1990095) |
-| 1        | CD4050B (DIP 16 package)                              |                                                                                                                       |
+| 1        | CD4050B (DIP 16 package)                              |   [DigiKey](https://www.digikey.com/en/products/detail/texas-instruments/CD4050BE/67303)                                                                                                                    |
 
 ## Installation
 
