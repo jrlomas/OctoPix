@@ -1222,18 +1222,6 @@
 		(uuid "109065d4-ebf1-471f-9862-8d236269ee0d")
 	)
 	(no_connect
-		(at 114.3 35.56)
-		(uuid "306df4a4-d0fe-4d01-9c44-f9bbeafba2c9")
-	)
-	(no_connect
-		(at 78.74 35.56)
-		(uuid "3c5af9a7-4679-47a6-9471-b50402603c3f")
-	)
-	(no_connect
-		(at 38.1 35.56)
-		(uuid "5197f5df-e397-427e-a5de-441afb3b9f2c")
-	)
-	(no_connect
 		(at 78.74 64.77)
 		(uuid "5f9748dd-e2a8-4f12-96b3-2f1812cfa394")
 	)
@@ -1244,10 +1232,6 @@
 	(no_connect
 		(at 104.14 64.77)
 		(uuid "c4185dc5-b719-46ba-a627-28156c04f909")
-	)
-	(no_connect
-		(at 148.59 35.56)
-		(uuid "e08b54b3-ed9e-4b35-9bc3-f527ff559096")
 	)
 	(no_connect
 		(at 60.96 35.56)
@@ -1409,6 +1393,16 @@
 	)
 	(wire
 		(pts
+			(xy 41.91 35.56) (xy 41.91 36.83)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "91df7ae5-429f-4d0d-ad1b-30d0c124fb0b")
+	)
+	(wire
+		(pts
 			(xy 38.1 68.58) (xy 58.42 68.58)
 		)
 		(stroke
@@ -1476,6 +1470,16 @@
 			(type default)
 		)
 		(uuid "b2426ff3-2191-4497-ae7a-223f1142a9d6")
+	)
+	(wire
+		(pts
+			(xy 38.1 35.56) (xy 41.91 35.56)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b790ffe9-885b-41d5-8ef0-7375ee152e0a")
 	)
 	(wire
 		(pts
@@ -2076,6 +2080,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 41.91 36.83 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "19e28e26-d9ff-4541-ad79-94da38ad85bc")
+		(property "Reference" "#PWR04"
+			(at 41.91 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 41.91 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 41.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e6ce9f35-7a8f-428e-83e6-c84d3e41c97a")
+		)
+		(instances
+			(project "octopixel"
+				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_02x05_Odd_Even")
 		(at 39.37 57.15 180)
 		(unit 1)
@@ -2294,6 +2364,72 @@
 			(project "octopixel"
 				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
 					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 114.3 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5524a108-3bdf-4114-8d81-2448d5801976")
+		(property "Reference" "#PWR06"
+			(at 114.3 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 114.3 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 114.3 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "80a4f98f-207a-4039-acff-87dcbb791308")
+		)
+		(instances
+			(project "octopixel"
+				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
+					(reference "#PWR06")
 					(unit 1)
 				)
 			)
@@ -2843,6 +2979,72 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 148.59 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "95014f4f-e621-418f-a0c8-eabfac4239ef")
+		(property "Reference" "#PWR07"
+			(at 148.59 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 148.59 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 148.59 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "53143368-a339-4eae-9412-e39a10c50f03")
+		)
+		(instances
+			(project "octopixel"
+				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
+					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 74.93 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -2902,6 +3104,72 @@
 			(project "octopixel"
 				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
 					(reference "#PWR016")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 78.74 35.56 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ab628dc3-e7f8-4721-accf-f63434a3f69a")
+		(property "Reference" "#PWR05"
+			(at 78.74 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "11fbbdd7-541f-4292-9919-9bd1fbd9dfba")
+		)
+		(instances
+			(project "octopixel"
+				(path "/3b0ac5c1-2509-42ac-8519-4e187cfa66e7"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
