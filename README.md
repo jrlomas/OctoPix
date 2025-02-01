@@ -32,6 +32,25 @@ This PCB expansion board adds additional Neopixel outputs to your BTT Octopus bo
 ![Installed Front View](images/octopus_front.png)
 ![Installed Rear View](images/octopus_rear.png)
 
+## Known Issues & Solutions
+
+Some users have reported the isssue that when assigning PB3, PB4, and PB5 to neopixels, klipper reports the pins as already being assigned to ``spi3`` (specially in STM32F446 MCUs).
+If you get this problem when restarting klipper, the solution is to recompile klipper firmware commenting out the lines below, found in the source code under ``~/klipper/src/stm32/spi.c``:
+
+```
+ DECL_ENUMERATION("spi_bus", "spi3", 4);
+ DECL_CONSTANT_STR("BUS_PINS_spi3", "PB4,PB5,PB3");
+```
+
+The lines should instead read:
+
+```
+//DECL_ENUMERATION("spi_bus", "spi3", 4);
+//DECL_CONSTANT_STR("BUS_PINS_spi3", "PB4,PB5,PB3");
+```
+
+After re-compiling and flashing the Octopus, PB3, PB4, and PB5 should be free to be used as GPIO pins instead of being bound to ``spi3``
+
 ## Credits
 
 This project was created by **knight_rad.iant** on Discord. Join the discussion and follow updates on the design.
